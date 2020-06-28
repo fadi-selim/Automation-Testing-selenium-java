@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="com.company.ListenerClass"></listener>
+        <listener class-name="com.company.CostumReport"></listener>
+    </listeners>
+    <test verbose="2" name="C:/Users/Fadi/IdeaProjects/TestingSite" preserve-order="true">
+        <parameter name="driverType" value="webdriver.chrome.driver"/>
+        <!--        Provide Chrome driver Path -->
+        <parameter name="pathTodriver" value="C:/webdriver/chromedriver.exe"/>
+        <classes>
+            <class name="com.company.MandatoryTest">
+                                <methods>
+                                    <include name="fullMandatory"/>
+                                    <include name="testemptymobile"/>
+                                    <include name="testemptyFname"/>
+                                    <include name="testemptylname"/>
+                                    <include name="testemptyemail"/>
+                                    <include name="testemptypass"/>
+                                    <include name="testemptycpass"/>
+                                </methods>
+            </class>
+
+            <class name="com.company.FieldsTest">
+                <methods>
+                    <include name="testInvalidFirstName"/>
+                    <include name="testInvalidLastName"/>
+                    <include name="testInvalidEmail"/>
+                    <include name="testSameNames"/>
+                    <include name="testPasswordStructure"/>
+                    <include name="testconflictPassword"/>
+                    <include name="testMobile"/>
+                    <include name="Emailunique"/>
+                    <include name="SuccessLogin"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
