@@ -26,7 +26,7 @@
     -An Implemented Class to generate valid and invalid testcases using regular expression
 - **ListenerClass.java**:
     -A class that implements **TestNG [ITestListener] Interface** to check on test failures
--**CustomReport.java**:
+- **CustomReport.java**:
     -A class that implements **TestNG [IReporter] Interface** to build a custom report
 
 # Limitations:
