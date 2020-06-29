@@ -12,7 +12,7 @@
   - ***Provide chromedriver path at parameter with name "pathTodriver at testng.xml file"***
   - A tag for each method is provided (include/exclude)
   - Run testng.xml file
-  - Once all testcases are complete , a ***Custom report*** [Sample](https://drive.google.com/file/d/1n1JilHFd2nwuHhUz80_OQJmognzm9YBg/view?usp=sharing) will launch with SCs and reasons for failure cases .
+  - Once all testcases are complete , a ***Custom report*** will launch with SCs and reasons for failure cases [Sample with no ref to SCs](https://drive.google.com/file/d/1n1JilHFd2nwuHhUz80_OQJmognzm9YBg/view?usp=sharing) .
   - ScreenShots at  *'...TestingSite/ErrorSc/'* ; Custom Report at *'...TestingSite/CustomReport/'*
   
 # Components and features
