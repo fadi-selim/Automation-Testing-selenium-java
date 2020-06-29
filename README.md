@@ -8,9 +8,10 @@
 
 # How It works
 ##### Run testng.xml file:
-  - ***Create Folder 'ErrorSC' and 'CustomReport' at main repo folder***
-  - ***Provide chromedriver path at parameter with name "pathTodriver"***
+  - ***Create Folder 'ErrorSC' and 'CustomReport' at main repo folder same level as src***
+  - ***Provide chromedriver path at parameter with name "pathTodriver at testng.xml file"***
   - A tag for each method is provided (include/exclude)
+  - Run testng.xml file
   - Once all testcases are complete , a ***Custom report***  will launch with SCs and reasons for failure cases .
   - ScreenShots at  *'...TestingSite/ErrorSc/'* ; Custom Report at *'...TestingSite/CustomReport/'*
   
