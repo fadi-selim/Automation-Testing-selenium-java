@@ -30,4 +30,4 @@
 
 # Limitations:
 - In some testcases browser will close , so keep it running. (faced an issue to reload register page after successful SignUp or successful Login in the same driver).
-- Didn't emplement HTTP Interceptor
+- Didn't emplement HTTP Interceptor (Tried using spring boot but got run out of time)
