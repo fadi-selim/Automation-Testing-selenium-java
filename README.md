@@ -30,5 +30,5 @@
     -A class that implements **TestNG [IReporter] Interface** to build a custom report
 
 # Limitations:
-- In some testcases browser will close , so keep it running. (faced an issue to reload register page after successful SignUp or successful Login in the same driver).
+- In some testcases browser will close , so keep it running. (faced an issue to reload register page after successful SignUp or successful Login at the same runing driver).
 - Didn't emplement HTTP Interceptor (Tried using spring boot but got run out of time)
