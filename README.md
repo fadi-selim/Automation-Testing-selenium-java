@@ -17,7 +17,7 @@
   
 # Components and features
 - **testng.xml**:
-    -main file to run tests
+    -main configuration file to run tests
 - **FieldsTest.java**:
    -Test Class that test the validation of limitations of Each field  *ex:(FirstName must begin with capital letter)* (handles error exceptions)
 - **MandatoryTest.java**:
